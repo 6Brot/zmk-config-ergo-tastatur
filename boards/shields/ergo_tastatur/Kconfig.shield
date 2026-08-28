@@ -1,0 +1,5 @@
+config SHIELD_ERGO_TASTATUR_LEFT
+    def_bool $(shields_list_contains,ergo_tastatur_left)
+
+config SHIELD_ERGO_TASTATUR_RIGHT
+    def_bool $(shields_list_contains,ergo_tastatur_right)
